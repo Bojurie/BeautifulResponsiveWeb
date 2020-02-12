@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  background-image: url(/images/Logo1.eps);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
+  
+} */
+img {
+  width: 50%;
+  max-width: 400px;
+}
+
+a {
+  color: #454343;
+  font-size: 16px;
+  padding: 11px 13px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8BC442;
+  letter-spacing: 1px;
+}
+.row {
+ z-index: 1;
+}
+
+.header {
+  padding-left: 10%;
+  Padding-right: 10%; 
+  display: flex;
+  /* height: 158px; */
+  border-bottom: 3px solid #F48E39;
+  background-image: linear-gradient(to left,rgb(52, 75, 129), #87D0D9);
+  
+}
+.left-side {
+  padding-top: 10px;
+}
+.nav-links {
+  padding-top: 35px;
+  display: flex;
+  
+}
+
+.right-side {
+  padding-top: 45px ;
+  padding-left: 130px;
+  color: #F48E39;
+}
+
+
+#myVideo {
+  position: fixed;
+  background-position: center;
+  /* right: 0;
+  bottom: 0;
+  min-width: 100%; */
+  /* min-height: 100%; */
+}
