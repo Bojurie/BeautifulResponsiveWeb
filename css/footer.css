@@ -1,0 +1,134 @@
+#footer {
+  overflow-x: hidden;
+  background-image: linear-gradient(to left, rgb(202, 95, 62),rgb(243, 146, 67) );
+  
+  
+}
+
+.footer-top {
+  font-size: 12px;
+  line-height: 21px;
+  padding: 70px;
+  color:  rgb(95, 196, 209);
+}
+
+.row {
+  display: flex;
+  /* align-items: center; */
+  margin-left: -15px;
+  margin-right: -15px;
+} 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+
+aside {
+  padding-left: 70px;
+}
+
+aside > nav > ul > li > a{
+  color:  rgb(95, 196, 209);
+  
+}
+
+aside > nav > ul {
+  list-style-type: none;
+  
+}
+.widget  {
+  margin-bottom: 30px;
+}
+
+.sidebar .widget {
+  margin: 0 0 80px;
+}
+
+.widget p {
+  margin: 0 0 16px;
+}
+
+p {
+  margin-bottom: 22px;
+}
+
+.widget:nth-child(4n+1) {
+  clear: left;
+} 
+.social-icon {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color:  rgb(95, 196, 209);
+  display: block;
+  height: 40px;
+  float: left;
+  line-height: 40px;
+  margin: 0 10px 0 0;
+  opacity: .35;
+  filter: alpha(opacity=35);
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+  text-align: center;
+  width: 40px;
+
+}
+/* .title-block {
+  margin: 0 0 15px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid #e1e1e1;
+  position: relative;
+} */
+
+.title{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.3;
+    text-transform: uppercase
+}
+.sidebar .widget .title-block, {
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0 0 40px;
+  padding: 0 0 15px;
+  position: relative;
+}
+
+.footer-bottom {
+  background-image: linear-gradient(to left,rgb(52, 75, 129), #87D0D9);
+  border-top-width: 1px;
+  font-size: 11px;
+  line-height: 17px;
+  padding: 21px 0 20px;
+  /* text-align: center; */
+  padding-left: 70px;
+  padding-right: 70px;
+  color: #454343;
+}
+
+.phone {
+  padding-left: 500px;
+}
+
+.socfont {
+  display: none;
+}
+
+.submit {
+  width: 60px;
+  height: 19px;
+  font-size: 1em;
+  border-radius: 5px;
+  font-family: sans-serif;
+  background-color: #F48E39;
+  color: #454343;
+  margin-top: 20px;
+  /* margin-left: 225px; */
+  border: none;
+}
+
