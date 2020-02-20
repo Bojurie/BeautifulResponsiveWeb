@@ -1,0 +1,10 @@
+body {
+  background-image: linear-gradient(to bottom,#2d9d5bbf, rgba(98, 133, 52, 0.57));
+  color: #454343;
+}
+
+.squares-wrapper > .squares {
+  width: 1000px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,39 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.page-container > .content-wrapper {
+  width: 1000px;
+}
+
+.page-container > .content-wrapper h1 {
+  text-align: center;
+}
+
+.page-container > .content-wrapper #Company {
+  width: 300px;
+  margin: 23px 40px 20px 0px;
+  float: left;
+  /* border: 1px solid #F48E39;; */
+
+}
+
+.page-container > .content-wrapper #Owner {
+  width: 300px;
+  margin: 0px 20px 40px 23px;
+  float: right;
+  /* border: 1px solid #F48E39;; */
+
+}
+.page-container > .content-wrapper p {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.page-container-1 {
+  width: 100px;
+  height: 100px;
+}
+
