@@ -14,7 +14,7 @@ body {
 
 .spacing:hover {
   border: 1px solid #2d9d5bbf;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .content {
