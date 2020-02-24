@@ -42,7 +42,7 @@ body {
 
 #myVideo {
   width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 video::-webkit-media-controls {
