@@ -122,10 +122,10 @@
 .right-box {
   display: table;
 }
-.fa-phone-volume {
+.fas, .far  {
   color: #F48E39;
   padding: 2px;
-  display: none;
+ 
 }
 .right-box-wrapper {
   display: table-cell;
