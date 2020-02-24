@@ -24,50 +24,58 @@
     <link rel="stylesheet" href="css/media-queries.css">
   </head>
   <body>
-      <div class="container-header__wrapper">
-          <div class="header">
-              <div class="container">
-                  <div class="row">
-                        <div class="col-xs-6 col-md-2 col-lg-3 logo-box">
-                            <div class="logo">
-                                <a href="index.html" title="Beautiful Responsive Web">
-                                     <img src="images/Logo.png" alt="Logo">
-                                </a>
-                            </div>
-                        </div>
-                    
-                        <div class="col-xs-6 col-md-10 col-lg-9 right-box">
-                            <div class="right-box-wrapper">
-                                                     
-                                <div class="header-icons"> 
-                                    <address>
-                                        <span class="isc-phone">
-                                            <span class="livicon"><i class="fas fa-phone-square-alt"></i></span>
-                                            <span>949-418-6770</span>
-                                        </span> 
-                                    </address> 
-                                </div>
-
-                                <div class="header-primary">
-                                    <div class="navbar navbar-default" role="navigation">
-                                        <ul class='nav-links'>
-                                            <a class="nav-link" href="/index.html">Home</a>
-                                            <a class="nav-link" href="/service.html">Service</a>
-                                            <a class="nav-link" href="/projects.html">Projects</a>
-                                            <a class="nav-link" href="/company.html">Company</a>
-                                            <button class="request-quote" id="myButton" >
-                                                    Request Quote
-                                            </button>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container-header__wrapper">
+                <div class="header">
+                    <div class="container">
+                        <div class="row">
+                              <div class="col-xs-6 col-md-2 col-lg-3 logo-box">
+                                  <div class="logo">
+                                      <a href="index.html" title="Beautiful Responsive Web">
+                                           <img src="/images/Logo.png" alt="Logo">
+                                      </a>
+                                  </div>
+                              </div>
+                             
+                              
+                                  <div class="col-xs-6 col-md-10 col-lg-9 right-box">
+                                      <div class="right-box-wrapper"> 
+      
+                                        <div class="topnav" id="myTopnav">   
+      
+                                         
+                                          
+                                          <div class="header-primary">
+                                              <div class="navbar navbar-default" role="navigation">
+                                                  <ul class='nav-links'>
+                                                      <a class="nav-link " href="/index.html">Home</a>
+                                                      <a class="nav-link" href="/service.html">Service</a>
+                                                      <a class="nav-link" href="/projects.html">Projects</a>
+                                                      <a class="nav-link" href="/company.html">Company</a>
+                                                      <a class="nav-link current" href="contact.html">Contact Us</a>
+                                                      <!-- <button class="request-quote" id="myButton" >
+                                                              Request Quote
+                                                      </button> -->
+      
+                                                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                                              <i class="fa fa-bars"></i>
+                                                      </a>
+                                                      <a class="nav-link" href="/company.html">
+                                                               <strong class="address"><i class="fas fa-phone-volume"></i>949-418-6770</strong>   
+                                                      </a>
+                                                                      
+                                                                     
+                                                                  
+                                                      
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                  </div>
+                </div>
             </div>
-          </div>
-      </div>
-
 
       <div class="page-container">
         <div class="contact-grid-wrapper">
@@ -100,14 +108,14 @@
                 </div>
             </div>
 
-            <div class="form">
+            <form class="form" action="mailto:beautifulresponsiveweb@gmail.com" method="POST" enctype="text/plain">
                 <div class="form-group">
-                    <input type="text" id="fullName" placeholder="Your name">
+                    <input type="text" id="fullName" placeholder="Your name" required="required">
                     <label for="fullName">Your name</label>
                 </div>
 
                 <div class="form-group">
-                    <input type="email" id="email" placeholder="Your email">
+                    <input type="email" id="email" placeholder="Your email" required="required">
                     <label for="email">Your email</label>
                 </div>
 
@@ -119,9 +127,9 @@
                 <div class="spacer10"></div>
 
                 <div class="center-btn-wrapper">
-                    <button type="submit" class="btn">Send</button>
+                    <input type="submit" class="btn" value="Send"/>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 

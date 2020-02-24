@@ -21,9 +21,10 @@
 }
 
 .page-container > .content-wrapper #Owner {
-  width: 300px;
+  width: 250px;
   margin: 0px 20px 40px 23px;
   float: right;
+  border-radius: 50%;
   /* border: 1px solid #F48E39;; */
 
 }

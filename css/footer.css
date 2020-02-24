@@ -1,8 +1,6 @@
 #footer {
   overflow-x: hidden;
   background-image: linear-gradient(to left, rgb(202, 95, 62),rgb(243, 146, 67) );
-  
-  
 }
 
 .footer-top {
@@ -19,13 +17,7 @@
 .container {
   margin-right: auto;
   margin-left: auto;
-  /* padding-left: 15px;
-  padding-right: 15px; */
 }
-
-/* aside {
-  padding-left: 70px;
-} */
 
 aside > nav > ul > li > a{
   color:  rgb(95, 196, 209);
@@ -78,13 +70,6 @@ p {
   width: 27px;
 
 }
-/* .title-block {
-  margin: 0 0 15px;
-  padding: 0 0 12px;
-  border-bottom: 1px solid #e1e1e1;
-  position: relative;
-} */
-
 .title{
     font-size: 16px;
     font-weight: normal;
@@ -104,15 +89,10 @@ p {
   font-size: 11px;
   line-height: 17px;
   padding: 21px 0 20px;
-  /* text-align: center; */
   padding-left: 70px;
   padding-right: 70px;
   color: #454343;
 }
-
-/* .phone {
-  padding-left: 500px;
-} */
 
 .socfont {
   display: none;
@@ -127,7 +107,6 @@ p {
   background-color: #F48E39;
   color: #454343;
   margin-top: 20px;
-  /* margin-left: 225px; */
   border: none;
 }
 

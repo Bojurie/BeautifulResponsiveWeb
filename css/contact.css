@@ -1,9 +1,5 @@
 body {
-  /* background-image: linear-gradient(to top, #579270,#87D0D9); */
-  /* background-color: #55b57d; */
-  /* background-image: linear-gradient(to left, rgba(98, 133, 52, 0.57),#119749a3); */
   background-image: linear-gradient(to bottom,#2d9d5bbf, rgba(98, 133, 52, 0.57));
-  
 }
 .contact-grid-wrapper {
   width: 1000px;

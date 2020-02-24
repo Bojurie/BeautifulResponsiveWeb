@@ -9,6 +9,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* .header-wrapper {
+  display: flex;
+}
+.right-box {
+  display: flex;
+} */
+
+
 .current {
   border: 1px solid #8BC442;
   color: #8BC442;
@@ -51,13 +60,15 @@ video::-webkit-media-controls {
 }
 
 .video-overlay p {
-  font-size: 1.5em;
   padding: 0 750px 0 100px;
   font-weight: 500;
   /* color: #8BC442; */
   
 }
 
+.overlay-paragraph {
+  padding: 20px 0;
+}
 .button {
   width: 91px;
   height: 40px;
@@ -165,7 +176,7 @@ h3 {
   padding: 30px 0;
 }
 
-.spacing:hover {
+/* .spacing:hover {
   border: 1px solid #2d9d5bbf;
   padding: 10px;
-}
+} */

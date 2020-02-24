@@ -8,15 +8,6 @@ body {
   height: 500px;
 }
 
-.spacing {
-
-}
-
-.spacing:hover {
-  border: 1px solid #2d9d5bbf;
-  /* padding: 10px; */
-}
-
 .content {
   padding: 40px 0;
 

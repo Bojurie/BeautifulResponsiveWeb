@@ -74,7 +74,7 @@
       padding: 1.5rem 0rem;
   }
   .video-section {
-
+    height: auto;
 }
   .video-overlay {
       display: flex;
@@ -85,9 +85,19 @@
       font-size: 1rem;
       padding: 74px;
   }
+  
+  .video-overlay p {
+      max-width: 100%;
+      padding: 10px;
+      margin-bottom: 0;
+      margin-top: -6px;
+  }
   .overlay-paragraph {
-      font-size: 1rem;
+      width: 100vw;
+    
+      /* font-size: 1rem !important; */
       text-align: center;
+      
   }
   .past-work__container{
   height: auto;
