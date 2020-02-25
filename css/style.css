@@ -42,16 +42,13 @@ body {
 
 #myVideo {
   width: 100%;
-  /* height: auto; */
+  height: 100%;
 }
 
 video::-webkit-media-controls {
   display: none !important;
 }
-.video-overlay{
-  /* display: grid; */
-  /* padding: 100px; */
-}
+
 .overlay-heading {
   padding: 180px 100px 20px;
   width: 50%;
