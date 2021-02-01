@@ -1,10 +1,196 @@
+body {
+  font-family: 'Montserrat',
+  sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  
+}
 .header {
-  border-bottom: 3px solid #F48E39;
-  background-image: linear-gradient(to left,rgb(52, 75, 129), #87D0D9);
+  position: relative;
+  width: 100%x;
+  height: 50px;
+  background-color: #31358A;
+  filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  align-items: center;
+}
+.header-navbar {
+
+}
+
+.navbar-links {
+  position: absolute;
+  left: 54.58%;
+  right: 5.14%;
+  top: 0%;
+  /* bottom: 0%; */
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: center;
+  align-items: center;
+  list-style-type: none;
   
 }
 
+/* a {
+  
+} */
 
+.navbar-links a {
+  font-weight: 500;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.navbar-links a:hover{
+  background-color: #5A5DA1;
+  color: #FFFFFF;
+  border: 1px solid #5A5DA1;
+}
+
+.logo img{
+  /* position: absolute; */
+  align-self: center;
+  Width:90px;
+  Height: auto;
+  Top: 21.53px;
+  Left:80px;
+}
+
+.hero-wrapper {
+  /* position: absolute; */
+  width: 50%;
+  height: auto;
+  left: 73px;
+  /* margin: auto; */
+  /* justify-content: center; */
+ 
+}
+
+.hero-content-wrapper {
+     /* text-align: left; */
+     /* padding: 186px ;
+     left: 73px; */
+     padding: 186px 0 186px 73px;
+}
+
+.hero-content-wrapper h3{
+ /* text-align: center;
+ left: 135px;
+ top: 279px;
+font-weight: 300; */
+}
+.hero-content-wrapper h1{
+  font-weight: 700;
+  line-height: 86px;
+  font-style: normal;
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  width: 578px;
+height: 86px;
+  left: 73px;
+  top: 337.8px;
+}
+.hero-content-wrapper p{
+  width: 578px;
+  height: 96px;
+  left: 73px;
+  top: 450px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.button {
+  background: linear-gradient(90deg, #ED582A 14.09%, #F48E39 100%);
+  border-radius: 30px;
+  padding: 10px 30px;
+
+  height: 46px;
+  width: 161px;
+ 
+
+}
+.dot {
+ color: #ED582A;
+ font-size: 40px;
+}
+
+.rectangle {
+  height: 26px;
+  width: 60px;
+  left: 706.999755859375px;
+  top: 788.0000610351562px;
+  border-radius: 18px;
+  margin: auto;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 18px;
+  transform: rotate(90deg);
+
+}
+
+.arrow {
+  width: 40px;
+  height: 0;
+  left: 720px;
+  top: 798px;
+
+  /* white */
+
+  border: 1.5px solid #FFFFFF;
+  border-radius: 18px;
+  
+
+}
+
+.about {
+  height: 600px;
+  width: 1440px;
+  left: -1px;
+  top: 900.0000610351562px;
+  border-radius: 0px;
+  background-color: #FFFFFF;
+
+}
+
+.eclipse-1 {
+  height: 337.90545654296875px;
+  width: 337.90545654296875px;
+  left: 159.89697265625px;
+  top: 1029.2489624023438px;
+  border-radius: 0px;
+  border: 2.09px solid #31358A
+}
+.about-story h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+
+}
+
+.hero {
+  background-image: url('../images/Group\ 188.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
 .topnav {
   overflow: hidden;
   display: grid;
@@ -66,7 +252,7 @@
 }
 
 
-.header-primary {
+/* .header-primary {
   float: left;
   margin-bottom: 10px;
   z-index: 900;
@@ -76,35 +262,35 @@
   float: right;
   margin: 9px 0;
   text-align: right;
-}
+} */
 
-.logo-box {
+/* .logo-box {
   display: table;
   table-layout: fixed;
-}
+} */
 
-.logo {
+/* .logo {
   display: table-cell;
   height: 100px;
   max-width: 100%;
   vertical-align: middle;
   width: 100%;
-}
+} */
 .nav-links {
   display: contents !important;
 }
-.logo img {
+/* .logo img {
   max-width: 100%;
-}
+} */
 
 .spacing{
   width: 158px;
 } 
 
-.logo a {
+/* .logo a {
   display: inline-block;
   max-width: 100%;
-}
+} */
 
 /* .request-quote {
   padding: 1px;
@@ -119,7 +305,7 @@
 /* .request-quote:hover {
   background-image: linear-gradient(to right,#2d9d5bbf, rgba(98, 133, 52, 0.57));
 } */
-.right-box {
+/* .right-box {
   display: table;
 }
 .fas, .far  {
@@ -155,7 +341,7 @@
 
 .isc-phone {
   font-size: 20px;
-}
+} */
 
 h1 {
   font-size: 1.5rem
@@ -168,7 +354,7 @@ a {
 }
 
 a:hover {
-  color: #8BC442;
+  /* color: #8BC442; */
   /* border: 1px solid #8BC442; */
   /* letter-spacing: 1px; */
   text-decoration: none;
