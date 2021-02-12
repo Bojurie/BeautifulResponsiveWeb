@@ -11,21 +11,22 @@
   display: grid;
   grid-template-columns: 1fr 1fr ;
   margin-top: -4px;
-  /* padding-top: 40px; */
+  align-items: center;
 }
 
 .square > .img-wrapper img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
+  height: 279px;
+  width: 486.7659606933594px;
+  left: 819px;
+  top: 1032px;
+  border-radius: 0px;
+
 }
 
 .square > .square-text-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  padding: 42px;
 }
 
 .square > .square-text-wrapper h1 {

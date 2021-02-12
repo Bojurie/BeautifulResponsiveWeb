@@ -8,14 +8,14 @@ body {
 .header {
   position: relative;
   width: 100%x;
-  height: 50px;
   background-color: #31358A;
   filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
   display: flex;
   align-items: center;
+  height: 50px;
 }
 .header-navbar {
-
+  margin: 0 80px;
 }
 
 .navbar-links {
@@ -213,8 +213,7 @@ height: 86px;
 .eclipse-2 {
   height: 250px;
   width: 250px;
-  background: #8687a5;
-  opacity: 0.4;
+  background: #ccbfbf70;
   /* black */
   margin: auto;
   border: 2.08584px solid #333333;
@@ -223,6 +222,7 @@ height: 86px;
   border-radius: 50%;
   display: flex;
   z-index: 2;
+  animation: animateConter 15s linear infinite;
 
 }
 
@@ -285,6 +285,15 @@ height: 86px;
   }
 }
 
+@keyframes animateCounter {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  100% {
+    transform: rotate(-405deg);
+  }
+}
 .node-logo {
      position: absolute;
      width: 75.39px;
@@ -389,30 +398,8 @@ height: 86px;
   width: 100%;
 }
 
-.process {
-  background: #F4FCFD;
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: -1px;
 
 
-
-}
-.process-content h1{
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 40px;
-  /* identical to box height, or 100% */
-
-  letter-spacing: -0.4px;
-
-  /* dark blue */
-
-  color: #31358A;
-}
 .topnav {
   overflow: hidden;
   display: grid;
@@ -590,10 +577,9 @@ a:hover {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
-  font-size: 17px;
-}
+ }
 
 .topnav a:hover {
   background-color: #ddd;
