@@ -1,9 +1,19 @@
-#footer {
-  overflow-x: hidden;
-  background-image: linear-gradient(to left, rgb(202, 95, 62),rgb(243, 146, 67) );
+.footer {
+ background: #31358A;
 }
 
-.footer-top {
+.footer-logo img {
+  width: 177.68px;
+  height: auto;
+}
+
+.footer-content-wrapper {
+      align-items: baseline;
+      padding: 100px;
+      margin: auto;
+      
+}
+/* .footer-top {
   font-size: 12px;
   line-height: 21px;
   padding: 70px;
@@ -109,4 +119,4 @@ p {
   margin-top: 20px;
   border: none;
 }
-
+ */

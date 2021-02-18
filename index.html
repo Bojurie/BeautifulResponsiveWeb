@@ -12,8 +12,7 @@
     <link rel="manifest" href="/site.webmanifest">
    
     <title>Beautiful Responsive Web</title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
@@ -25,8 +24,25 @@
 
   </head>
   <body>
+      <nav>
+          <input type="checkbox" id="check">
+          <div class="logo">
+              <img src="./images/Logo.png" alt="">
+          </div>
 
-      <div class="header">
+          <ol>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="service.html">Service</a> </li>
+            <li><a href="projects.html">Projects</a> </li>
+            <li><a href="about.html">About Us</a> </li>
+            <li><a href="contact.html">Contact Us</a> </li> 
+          </ol>
+          <label for="check" class="bar">
+               <span class="fa fa-bars" id="bars"></span>
+               <span class="fa fa-times" id="times"></span>
+          </label>
+      </nav>
+      <!-- <div class="header">
           <div class="header-navbar">
               <div class="logo">
                   <img src="./images/Logo.png" alt="">
@@ -41,37 +57,45 @@
                             <li><a href="about.html">About Us</a> </li>
                             <li><a href="contact.html">Contact Us</a> </li>
                         </ul>
+                        <label for="" class="bar">
+                            <span class="fa fa-bars" id="bars"></span>
+                            <span class="fa fa-times" id="times"></span>
+                        </label>
                      </div>
                 </div>
           </div>
 
-      </div>
+      </div> -->
 
       <div class="hero">
           <div class="hero-wrapper">
-              <div class="hero-content-wrapper">
-                  <h3>
-                      - Costumized Design
-                   </h3>
-                  <h1>
-                      Let's Create Something <span class="dot">.</span> 
-                   </h1>
-                  <p>
-                      Beautiful Responsive Designs created from scratch with no templete. All Customized to your specification.
-                  </p>
-                  <a class="button" href="#">Get Started</a>
-              </div>
-          </div>
-           <div class="rectangle">
-                
-                <img src="./images/Group 187.png" alt="">
+            <div class="hero-content">
+                <div class="hero-content-wrapper">
+                    <h3>
+                        - Costumized Design
+                    </h3>
+                    <h1>
+                        Let's Create Something <span class="dot">.</span> 
+                    </h1>
+                    <p>
+                        Beautiful Responsive Designs created from scratch with no templete. All Customized to your specification.
+                    </p>
+                    <div class="hero-button">
+                        <a class="button" href="#">Get Started</a>
+                    </div>
+                    
+                </div>
             </div>
+            <div class="rectangle">
+               <img src="./images/Group 187.png" alt="">
+            </div>
+          </div>
       </div>
 
 
       <div class="about">
-          <div class="about-content">
-              <div class="about-skills">
+          <div class=" container about-content">
+              <div class="row about-skills">
                   <div class="eclipse-1">
                       <img class="boots-logo" src="/images/BSTLogo.png" alt="">
                      
@@ -91,11 +115,14 @@
                           </div>
                       </div>
                   </div>
-              </div>
-              <div class="about-story">
-                  <h3><span class="hyphen">-</span>About Us</h3>
-                  <h1>Our Story</h1>
-                  <div class="about-para">
+             </div>
+
+
+               <div class="row header-wrapper">
+                  
+                  <h3><span class="hyphen" class="overview">-</span>About Us</h3>
+                    <h1 class="heading">Our Story</h1>
+                     <div class="col about-para">
                         <p>
                             We are a Consultancy firm offering diverse experience designing, developing, and maintaining technologies both scalable and compatible across multiple platforms, browsers, and devices. 
 
@@ -103,14 +130,14 @@
 
                         <p>
                             Adept at understanding the requirements of our clientele's design and deliver projects according to deadline while maintaining quality and code integrity to take a concept and convert into a 'beautifully' finished project to accommodate current and future needs.
-                        </p>
+                        </p> 
+                        <a class="button" href="">Learn More</a>
                   </div>
                   
-                  <a class="button" href="">Learn More</a>
+                 
               </div>
           </div>
       </div>
-
 
       <div class="process">
           <div class="process-container">
@@ -119,40 +146,52 @@
                    <h1 class="heading">That’s how we do it<span class="dot">.</span></h1>
               </div>
               
-              <div class="process-content_wrapper">
+             
+                <div class="container">
+  
+                   <div class="row align-items-start">
+                
+                    <div class="col-4 col-6 col-12">
+                        <div class="num-wrapper">
+                            <h4 class="num">01</h4>
+                        </div>
+                        <h4 class="card-heading">Research & Analytic</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, repellat.</p>
+                    </div>
 
-                  <div class="process-card">
-                      <div class="num-wrapper">
-                        <h4 class="num">01</h4>
-                      </div>
-                      <h4 class="card-heading">Research & Analytic</h4>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, repellat.</p>
-                  </div>
+                    <div class="col-4 col-6 col-12">
+                        <div class="num-wrapper1">
+                            <h4 class="num">02</h4>
+                        </div>
+                        <h4 class="card-heading">Research & Analytic</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, repellat.</p>
+                    </div>
 
-                  <div class="process-card">
-                      <div class="num-wrapper1">
-                        <h4 class="num">02</h4>
-                      </div>
-                      <h4 class="card-heading">Research & Analytic</h4>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, repellat.</p>
-                  </div>
+                    <div class="col-4 col-6 col-12">
+                        <div class="num-wrapper">
+                            <h4 class="num">03</h4>
+                        </div>
+                        <h4 class="card-heading">Research & Analytic</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, repellat.</p>
+                    </div>
 
-                  <div class="process-card">
-                      <div class="num-wrapper">
-                        <h4 class="num">03</h4>
-                      </div>
-                      <h4 class="card-heading">Research & Analytic</h4>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, repellat.</p>
-                  </div>
-
-                  <div class="process-card">
+                </div>
+                <div class="row align-items-start">
+                     <div class="col-4 col-md-6 col-sm-12">
                       <div class="num-wrapper">
                         <h4 class="num">04</h4>
                       </div>
                       <h4 class="card-heading">Research & Analytic</h4>
                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, repellat.</p>
                   </div>
+                </div>
+
               </div>
+
+                
+
+              </div>
+
           </div>
       </div>
 
@@ -429,7 +468,4 @@
     <script src="index.js" type="text/javascript"></script>
   </body>
   </html>
-   
-  
-  </body>
 </html>

@@ -1,4 +1,4 @@
-.squares-wrapper {
+/* .squares-wrapper {
   display: flex;
   justify-content: center;
 }
@@ -12,14 +12,16 @@
   grid-template-columns: 1fr 1fr ;
   margin-top: -4px;
   align-items: center;
-}
+      padding: 70px 0;
+} */
 
 .square > .img-wrapper img {
-  height: 279px;
-  width: 486.7659606933594px;
+  
   left: 819px;
   top: 1032px;
   border-radius: 0px;
+  width: 270px;
+  height: auto;
 
 }
 
