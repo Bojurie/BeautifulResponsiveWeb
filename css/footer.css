@@ -13,6 +13,18 @@
       margin: auto;
       
 }
+
+.footer-content-wrapper ul{
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+.footer-content-wrapper ul a {
+  text-decoration: none;
+  color: #829d9d;
+
+}
 /* .footer-top {
   font-size: 12px;
   line-height: 21px;

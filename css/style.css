@@ -1,28 +1,34 @@
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+font-family: 'Montserrat',sans-serif;
+width: 100%;
 
 }
-body {
-font-family: 'Montserrat',
-sans-serif;
-}
+
 .process {
   background: #F4FCFD;
-  position: absolute;
   width: 100%;
-  /* height: 600px; */
   left: -1px;
-
-}
-
-.process-container {
-
 }
 
 .header-wrapper {
-  padding: 80px 0 70px 87px;
+  padding: 80px 0 70px 130px;
 }
+
+.process-wrapper {
+  padding: 0 60px 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.process-wrapper p{
+  color: #333333;
+}
+
 .process-container h1{
   font-style: normal;
   font-weight: bold;
@@ -31,11 +37,11 @@ sans-serif;
   letter-spacing: -0.4px;
   color: #31358A;
 }
-.process-container h3{
+.overview {
   color: #333333;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.292683px;
 }
@@ -44,7 +50,7 @@ sans-serif;
   display: flex;
   margin: auto;
   justify-content: space-evenly;
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 
 }
 
@@ -86,19 +92,15 @@ sans-serif;
 
 .hero {
   background-image: url('../images/Group\ 188.png');
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   /* height: 100%; */
   width: 100%;
 }
 
-.hero-wrapper {
-  
-}
-
 .hero-content-wrapper {
-  padding: 186px 0 186px 73px;
+padding: 149px 0 150px 73px;
 }
 
 .hero-content-wrapper h1 {
@@ -110,8 +112,6 @@ sans-serif;
   display: flex;
   align-items: center;
   letter-spacing: 1px;
-
-  width: 578px;
   height: 86px;
   left: 73px;
   top: 337.8px;
@@ -133,9 +133,9 @@ sans-serif;
   background: linear-gradient(90deg, #ED582A 14.09%, #F48E39 100%);
   border-radius: 30px;
   padding: 10px 30px;
-
   height: 46px;
   width: 161px;
+  text-decoration: none;
 }
 
 .dot {
@@ -160,7 +160,7 @@ sans-serif;
   margin: auto;
   justify-content: center;
 }
-
+.abou
 .about h3 {
   text-transform: uppercase;
 }
@@ -192,12 +192,11 @@ sans-serif;
   opacity: 0.7;
 }
 
-.about-story a {}
-
 .about-content {
   display: flex;
   width: 100%;
   margin: auto;
+  padding: 30px 100px;
 }
 
 .about-skills {
@@ -392,6 +391,254 @@ sans-serif;
 
 }
 
+.header-wrapper h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.4px;
+  color: #31358A;
+}
+
+.header-wrapper p{
+  color: black;
+}
+.service-cards_wrapper {
+  display: flex;
+
+}
+
+.service-cards {
+  padding: 0 100px 100px;
+}
+.service-card {
+  background: #31358A;
+  padding: 5px;
+  margin: 20px;
+  padding: 62px;
+  border-radius: 5%;
+}
+.service-card_link {
+  padding-left: 10px;
+}
+
+ .service-card a {
+   text-decoration: none;
+ }
+
+.service-card h1 {
+  padding: 15px 0 10px;
+}
+.comment-section {
+  background-color: #F4FCFD;
+}
+
+.comment-content {
+  text-align: center;
+  padding: 0 100px 120px;
+}
+
+.quotes {
+  padding: 10px;
+}
+
+.comment-content p {
+  width: 530px;
+  color: black;
+  text-align: center;
+  display: inline-block;
+     
+}
+
+.comment-img_wrapper {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+      margin: auto;
+}
+.comment-img_wrapper h2{
+  font-size: 0.9rem;
+  padding: 10px;
+  color: black;
+}
+
+.comment-img_wrapper p{
+  text-align: center;
+  width: 100%;
+
+}
+.clients-section {
+  background: #31358A;
+
+}
+.clients-heading h1 {
+  color: white;
+}
+.clients-heading h3 {
+  color: lightblue;
+}
+.header-wrapper h3 {
+  text-transform: uppercase;
+}
+
+.clients-logo {
+  padding: 0;
+}
+.clients-logo_wrapper {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 0;
+      
+}
+
+.clients-logo_wrapper img {
+   width: 130px;
+   height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.team-content_social i{
+  color: #333333;
+  padding: 5px;
+}
+.team-content_wrapper {
+  color: black;
+  text-align: center;
+}
+.team-content_wrapper img{
+  width: 300px;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 320px) {
+  .hero-content-wrapper h3 {
+    font-size: 1.3rem;
+  }
+  .hero-content-wrapper h1 {
+    font-weight: 700;
+    /* line-height: 86px; */
+    font-style: normal;
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 1px;
+    left: 73px;
+    top: 337.8px;
+  }
+  .hero-button {
+    margin-top: 0;
+  }
+  .about-skills {
+    padding: 0px !important;
+    display: flex !important;
+    justify-content: center;
+    padding-top: 35px !important;
+    
+  }
+  .eclipse-1 {
+    height: 220.905457px;
+    width: 220.905457px;
+
+  }
+  .boots-logo {
+    width: 25.5px;
+    height: 25.5px;
+    left: 150px;
+    
+  }
+  .eclipse-2 {
+    height: 178px;
+    width: 178px;
+  }
+  .html-logo {
+    right: 171px;
+    width: 26px;
+    height: 26px;
+  }
+  .slack-logo {
+    bottom: 181px;
+    width: 26px;
+    height: 26px;
+  }
+  .zoom-logo {
+    bottom: 33px;
+    width: 26px;
+    height: 26px;
+  }
+  .js-logo {
+    left: 56px;
+  }
+  .node-logo {
+    width: 26.39px;
+    height: 26.39px;
+    left: -17px;
+ }
+ .eclipse-3 {
+   width: 124.06px;
+   height: 124.06px;
+  }
+
+  .jqury-logo {
+    width: 40px;
+    height: auto;
+    right: 0px;
+  }
+  .header-wrapper {
+    padding: 54px 30px 0px !important;
+  }
+  .header-wrapper h1 {
+    font-size: 1.5rem !important;
+  }
+  .process-wrapper {
+    padding: 0px 40px 50px;
+  }
+  .header-wrapper p {
+    text-align: center;
+    padding: 0 !important;
+  }
+  .team-content_wrapper img {
+    width: 228px;
+  }
+  .team-content_wrapper h2{
+    font-size: 0.9rem;
+    padding-top: 16px;
+    font-weight: bolder;
+  }
+  .team-content_social {
+    padding-bottom: 10px;
+  }
+  .footer-content-wrapper {
+    padding: 60px !important;
+    text-align: center;
+  }
+  .left-col1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .footer-logo {
+    padding: 15px;
+  }
+  .footer-logo img {
+    width: 145px;
+  }
+  .left-col1 p {
+    font-size: 0.8rem;
+  }
+  .social-icon {
+    padding: 5px;
+  }
+  .quick-links {
+    padding: 20px 0;
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 375px) {
   .hero {
     height: auto;
@@ -400,6 +647,138 @@ sans-serif;
  .hero-content-wrapper {
    padding: 58px 30px;
    width: 100%;
+  }
+  .about {
+    width: 100%;
+  }
+  .about-skills {
+    padding: 35px 0 0 !important;
+  }
+  .eclipse-1 {
+    height: 250.905457px;
+    width: 250.905457px;
+  }
+  .boots-logo {
+    width: 30.5px;
+    height: 30.5px;
+    left: 172px;
+  }
+
+  .eclipse-2 {
+    height: 190px;
+    width: 190px;
+  }
+  .html-logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .eclipse-3 {
+    width: 125.06px;
+    height: 125.06px;
+  }
+
+  .slack-logo {
+    bottom: 45px;
+  }
+  .node-logo{
+    width: 47.39px;
+    height: auto;
+    left: -25px;
+  }
+  .js-logo {
+    width: 30x; 
+    left: 51px; 
+  }
+  .zoom-logo {
+    width: 30px;
+    height: 30px;
+    top: 49px;
+  }
+  .about-content {
+    padding: 0;
+  }
+  .header-wrapper {
+    padding: 60px 0 !important;
+  }
+  .header-wrapper h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .overview {
+    text-align: center;
+  }
+  .header-wrapper p {
+    padding: 30px !important;
+    text-align: center;
+  }
+  .about-para {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .process-wrapper {
+    text-align: center;
+    display: contents;
+  }
+  .process-card {
+    width: 255px;
+    color: black;
+    margin: auto;
+    padding: 15px 0;
+  }
+  .num {
+    display: inline;
+  }
+  .service-cards {
+    padding: 0;
+  }
+
+  .service-card {
+    padding: 30px;
+  }
+  .service-cards_wrapper {
+    display: contents;
+  }
+  .header-wrapper p {
+    color: black;
+    padding: 0 30px 30px;
+  }
+  .comment-content {
+    text-align: center;
+    padding: 0 ;
+  }
+  .comment-content p {
+    width: 100%;
+    padding: 30px;
+  }
+  .comment-img_wrapper {
+    height: auto;
+  }
+  .comment-img_wrapper p{
+    padding: 0;
+  }
+  .clients-logo_wrapper {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 60px;
+  }
+  .footer-content-wrapper {
+    padding: 60px !important;
+    text-align: center;
+  }
+  .left-col1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .footer-logo {
+    padding: 15px;
+  }
+  .social-icon {
+    padding: 5px;
+  }
+
+  .quick-links {
+    padding: 20px 0;
   }
 }
 
@@ -415,9 +794,146 @@ sans-serif;
   .hero-content-wrapper {
     width: 100%;
   }
-  
+  .about-skills {
+    padding: 55px 0 0 !important;
+  }
+  .eclipse-1 {
+    height: 260px !important;
+    width: 260px !important;
+  }
+  .boots-logo {
+    width: 30.5px;
+    height: 30.5px;
+    left: 174px;
+  }
+
+  .eclipse-2 {
+    height: 200px;
+    width: 200px;
+  }
+  .html-logo {
+    width: 30px;
+    height: 30px;
+    right: 166px;
+  }
+  .eclipse-3 {
+  width: 125px;
+  height: 125px;
+  }
+
+  .slack-logo {
+    width: 30px;
+    height: 30px;
+    top: 52px;
+  }
+  .node-logo {
+    width: 40.39px;
+    left: -22px;
+    height: auto;
+  }
+  .zoom-logo {
+    bottom: 50px;
+  }
+  .js-logo {
+    left: 52px;
+  }
+  .jqury-logo {
+    width: 50px;
+  }
+  .header-wrapper {
+    padding: 60px 0 !important;
+  }
+ .header-wrapper p {
+   text-align: center;
+   padding-top: 10px;
+ }
+  .about-para {
+    padding: 30px;
+    text-align: center;
+  }
+  .service-cards {
+    padding: 0;
+  }
+
+  .comment-content {
+    text-align: center;
+    padding: 30px;
+  }
+  .comment-img_wrapper {
+    height: auto;
+  }
+  .comment-content p {
+    width: auto !important;
+    
+  }
+  .clients-logo_wrapper {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 60px !important;
+  }
+  .social-icon {
+    padding: 5px 5px 20px;
+  }
+  .footer-logo {
+    padding: 15px 0;
+  }
+
+  .footer-logo img {
+    width: 145px;
+  }
+
+  .left-col1 p {
+    font-size: 0.8rem;
+  }
+
+  .social-icon {
+    padding: 5px;
+  }
+
+  .quick-links {
+    padding: 20px 0;
+  }
+  .row>*{
+    padding-right: 0; 
+    padding-left: 0;
+        
+  }
 }
 
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .service-cards_wrapper {
+    display: contents;
+  }
+  .about-content {
+    padding: 0;
+  }
+  .about-skills {
+    padding: 55px 55px 0;
+    margin: auto;
+  }
+  .header-wrapper {
+    padding: 80px 0 70px 30px;
+  }
+  .overview {
+    text-align: center;
+  }
+  .header-wrapper h1 {
+    text-align: center;  
+  }
+  .process-wrapper {
+    display: grid;
+    text-align: center;
+    grid-row-gap: 30px;
+  }
+  .num {
+    margin: auto;
+  }
+}
 @media screen and (max-width: 736px) {
   .hero {
     height: auto;
@@ -452,7 +968,7 @@ sans-serif;
     width: 100%;
   }
   .about-skills {
-    padding: 50px 36px 50px 0;
+    /* padding: 50px 36px 50px 0; */
     display: table;
 }
 .hero-content-wrapper h3 {

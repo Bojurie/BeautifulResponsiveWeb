@@ -12,11 +12,9 @@
   font-weight: bold;
 }
 .content-wrapper {
-      padding: 50px;
-      text-align: center;
-      
-      margin: auto;
-
+  padding: 30px;
+  text-align: center;
+  margin: auto;
 }
 
 .content-wrapper p{
