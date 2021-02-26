@@ -161,6 +161,9 @@ body {
     margin: auto;
     text-align: center;
   }
+  .choose-us_i {
+    display: inline-flex;
+  }
   .service-wrapper_squares {
     display: grid;
     grid-row-gap: 45px;
@@ -191,6 +194,9 @@ body {
   .choose-us {
     padding: 40px;
     text-align: center;
+  }
+  .choose-us_i {
+    display: inline-flex;
   }
   .choose-us h3 {
     text-align: center;
@@ -236,6 +242,9 @@ body {
    .choose-us {
      padding: 40px ;
      text-align: center;
+   }
+   .choose-us_i{
+     display: inline-flex !important;
    }
    .squares {
      display: contents;

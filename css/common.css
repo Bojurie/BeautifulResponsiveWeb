@@ -19,4 +19,41 @@
 
 .content-wrapper p{
   font-size: 15px;
+  padding: 0 23rem;
+}
+
+@media screen and (max-width: 320px) {
+ .content-wrapper p {
+  padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content-wrapper p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-wrapper p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .content-wrapper p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content-wrapper p {
+    padding: 0;
+  }
 }

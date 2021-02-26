@@ -1,4 +1,4 @@
-body {
+/* body {
   background-image: linear-gradient(to bottom,#2d9d5bbf, rgba(98, 133, 52, 0.57));
 }
 .contact-grid-wrapper {
@@ -24,4 +24,133 @@ body {
   text-align: right;
   font-size: 1.2em;
   color: #454343;
+} */
+
+body {
+  font-family: 'Montserrat',
+  sans-serif;
+}
+.contact-wrapper-content {
+  display: flex;
+  padding: 40px;
+}
+
+.contact-wrapper-content>.header-wrapper {
+  padding: 80px;
+}
+.border {
+  border: 2px solid blue;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label {
+  display: block;
+  color: #3952a3;
+  font-weight: bold;
+  font-family: auto;;
+}
+.label {
+  font-weight: 600;
+}
+
+.contact form p {
+  margin: 0;
+}
+
+.contact form .full {
+  grid-column: 1 / 3;
+}
+.contact-info p{
+  padding: 10px;
+  color: #3952a3;
+  letter-spacing: 1px;
+}
+.contact-left {
+  width: 50%;
+}
+
+.contact-right {
+  width: 50%;
+}
+.contact form button,
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  /* padding: 1em; */
+  border: solid 1px #627EDC;
+  border-radius: 4px;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form button {
+  background: #627EDC;
+  border: 0;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #3952a3;
+  color: #ffffff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+
+@media screen and (max-width: 375px) {
+  .contact-wrapper-content {
+    display: contents;
+    /* padding: 40px;
+    border: 1px solid blue; */
+  }
+  .contact-left {
+    width: 100%;
+  }
+  .contact-info p{
+
+  }
+ .contact form {
+   display: contents;
+  }
+  .contact-right {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper>* {
+    padding: 2em;
+  }
+
+  .company-info {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .contact {
+    border-radius: 0 4px 4px 0;
+  }
+
+  .company-info h3,
+  .company-info ul,
+  .brand {
+    text-align: left;
+  }
 }

@@ -442,6 +442,10 @@ padding: 149px 0 150px 73px;
   padding: 10px;
 }
 
+.content-wrapper{
+  /* padding: 0 432px; */
+}
+
 .comment-content p {
   width: 530px;
   color: black;

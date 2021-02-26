@@ -14,12 +14,14 @@
     <title>Beautiful Responsive Web</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
     <!-- <link rel="stylesheet" href="css/media-queries.css"> --> 
   </head>
 
@@ -46,17 +48,63 @@
        </div>
     </section>
 
-      <div class="contact">
-          <div class="contact-wrapper">
-              <div class="contact-left">
+      <section class="contact">
+          <div class="contact-content">
+                <div class="contact-wrapper-content">
+                    <div class="header-wrapper contact-left">
+                        <h1 class="heading">Get in Touch<span class="dot">.</span></h1>
+                        <p>We appreciate each customer and we are proud that 60% of clients come back to work with us again.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-phone-alt">+949 223 2343</i></p>
+                            <p><i class="fas fa-envelope">beautifulresponsiveweb.com</i></p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="find-us">
+                            <h1>Find us on the map</h1>
+                            <p>123 first st, irvine</p>
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106235.57470467339!2d-117.84342922450497!3d33.68664483434782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd0e689140e3%3A0xa77ab575604a9a39!2sIrvine%2C%20CA!5e0!3m2!1sen!2sus!4v1614147608580!5m2!1sen!2sus" width="100%" height="286px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
 
-              </div>
+                    <div class="header-wrapper contact-right">
+                        <h1 class="heading">You Can Mail Us<span class="dot">.</span></h1>
+                        <p>We are always looking for our next great project</p>
+                        <form class="contact-form" action="MAILTO:beautifulresponsiveweb@gmail.com" method="post" enctype="text/plain" id="form">
+                            <p>
+                                <label for="fname" class="label">FIRST NAME</label>
+                                <input type="text" id="fname" name="fname"  required>
+                            </p>
+                           
+                            <p>
+                                <label for="budget" class="label">BUDGET</label>
+                                <select name="budget" id="budget">
+                                    <option value="500">500</option>
+                                    <option value="750">750</option>
+                                    <option value="1000">1000</option>
+                                    <option value="2000">2000</option>
+                                    <option value="300">3000</option>
+                                </select> <br>
+                            </p>
+                            
+                            <p>
+                                <label for="email" class="label">EMAIL INPUT</label>
+                                <input type="email" id="email" name="email"> <br>
+                            </p>
+                            <p class="full">
+                                <label for="textarea" class="label">YOUR MESSAGE</label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                            </p>
+                            <p class="full">
+                                <button type="submit" class="button">Submit</button>
+                            </p>
+                        </form>
+                    </div>
 
-              <div class="contact-right">
-
-              </div>
+                </div>
           </div>
-      </div>
+      </section>
 
       <!-- <div class="page-container">
         <div class="contact-grid-wrapper">
@@ -118,69 +166,88 @@
 
 
 
-    <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <aside class="col-lg-4 col-md-6 col-sm-12 justify-content-center widget social">
-                            <div class="title-block">
-                                <h3 class="title">Follow Us</h3>
-                            </div>
-                            <p>Folow us on social nedia</p>
-                            
-                            <a  class="social-icon" href="https://www.facebook.com/BeautifulResponsiveWeb/" target="blank"><i class="fab fa-facebook-square"></i></a>
-                            <a class="social-icon" href="https://www.instagram.com/beautiful_responsive_web/" target="blank"><i class="fab fa-instagram-square"></i></a>
-                            <a class="social-icon" href="https://www.linkedin.com/company/beautiful-responsive-web/" target="blank"><i class="fab fa-linkedin"></i></a>
-                            <a class="social-icon" href="" target="blank"><i class="fab fa-google-plus-square"></i></a>
-    
-                        </aside>
-    
-                        <aside class="col-lg-4 col-md-6 col-sm-12 justify-content-center widget links">
-                            <div class="title-block">
-                                <h3 class="title">Information</h3>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="company.html" title="Learn more about Beautiful Responsive Web">About us</a></li>
-                                    <li><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
-                                    <li><a href="index.js" title="Irvine Software Company Sitemap">Home</a></li>
-                                </ul>
-                            </nav>
-                        </aside>
-    
-                        <aside class="col-lg-4 col-md-6 col-sm-12 justify-content-center widget links">
-                            <div class="title-block">
-                                <h3 class="title">Services</h3>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="/website-design-services" title="Website Design Services">Website Design</a></li>
-                                    
-                                    <li><a href="/mobile-website-design-services" title="Mobile friendly website design">Mobile Websites</a></li>
-                                    <li><a href="/application-development-services" title="Custom application development services">Custom Application Development</a></li>
-                                </ul>
-                            </nav>
-                        </aside>
+   <div class="footer">
+        <div class="footer-content">
+            <div class="footer-content-wrapper row">
+                
+                <div class="left-col1 col-lg-3 col-sm-12">
+                    <div class="footer-logo">
+                        <img src="images/Logo.png" alt="">
+                    </div>
+                    <div>
+                        <p>Be sure to take a look at our Terms of Use and Privacy Policy</p>
+                    </div>
+            
+                    <div class="social-media">
+                        <a  
+                            class="social-icon" 
+                            href="https://www.facebook.com/BeautifulResponsiveWeb/" 
+                            target="blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a 
+                            class="social-icon" 
+                            href="https://www.instagram.com/beautiful_responsive_web/" 
+                            target="blank">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                        <a 
+                            class="social-icon" 
+                            href="https://www.linkedin.com/company/beautiful-responsive-web/" target="blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a 
+                            class="social-icon" 
+                            href="" 
+                            target="blank">
+                            <i class="fab fa-google-plus-square"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="copyright">
-                                    Copyright © Beautiful Responsive Web, 2020
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="phone">
-                                <strong>Call Us Now</strong>
-                                949-418-6770
-                            </div>
-                        </div>
+                <div class="quick-links col-lg-3">
+                    <div>
+                        <h1>Quick Links</h1>
+                    </div>
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="service.html"><li>Services</li></a>
+                        <a href="projects.html"><li>Projects</li></a>
+                        <a href="contact.html"><li>Contact Us</li></a>
+                    </ul>
+
                 </div>
+
+                <div class="footer-work col-lg-3 col-sm-12">
+                    <div>
+                        <h1>Work</h1>
+                    </div>
+                    <ul>
+                        <li><a href="projects.html"> Our Projects</a></li>
+                        <li><a href="projects.html"> Latest Work</a></li>
+                        <li><a href="#"> Blogs</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="footer-stuff col-lg-3 col-sm-12">
+                     <div>
+                        <h1>Stuff</h1>
+                    </div>
+                    <ul>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Help Desk</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                   
+                <div>
+
+                </div>
+                
             </div>
-        </footer>
+        </div>
+    </div>
         <script src="index.js" type="text/javascript"></script>
 
       
