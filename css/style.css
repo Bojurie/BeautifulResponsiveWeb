@@ -429,7 +429,7 @@ padding: 149px 0 150px 73px;
 }
 .service-card {
   background: #31358A;
-  margin: 20px;
+  margin: 20px 0;
   border-radius: 5%;
   padding: 20px;
   border-radius: 5%;
@@ -862,7 +862,7 @@ padding: 149px 0 150px 73px;
   .slack-logo {
     width: 30px;
     height: 30px;
-    top: 52px;
+    bottom: 51px;
   }
   .node-logo {
     width: 40.39px;
