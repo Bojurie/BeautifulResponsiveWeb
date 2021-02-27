@@ -95,9 +95,12 @@ width: 100%;
 
 .hero {
   background-image: url('../images/Group\ 188.png');
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
   /* height: 100%; */
   width: 100%;
 }
