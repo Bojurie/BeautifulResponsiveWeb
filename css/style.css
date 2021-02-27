@@ -432,7 +432,7 @@ padding: 149px 0 150px 73px;
 }
 .service-card {
   background: #31358A;
-  margin: 20px 0;
+  margin: 20px ;
   border-radius: 5%;
   padding: 20px;
   border-radius: 5%;
@@ -579,6 +579,11 @@ padding: 149px 0 150px 73px;
     padding-top: 35px !important;
     
   }
+
+  .service-card {
+    margin: 20px 0;
+  }
+
   .eclipse-1 {
     height: 220.905457px;
     width: 220.905457px;
@@ -694,6 +699,9 @@ padding: 149px 0 150px 73px;
   }
   .about-skills {
     padding: 35px 0 0 !important;
+  }
+  .service-card {
+    margin: 20px 0;
   }
   .eclipse-1 {
     height: 250.905457px;
@@ -838,6 +846,9 @@ padding: 149px 0 150px 73px;
   .about-skills {
     padding: 55px 0 0 !important;
   }
+  .service-card {
+    margin: 20px 0;
+  }
   .eclipse-1 {
     height: 260px !important;
     width: 260px !important;
@@ -957,6 +968,9 @@ padding: 149px 0 150px 73px;
     padding: 55px 55px 0;
     margin: auto;
   }
+  .service-card {
+    margin: 20px 0;
+  }
   .header-wrapper {
     padding: 80px 0 70px 30px;
   }
@@ -983,6 +997,9 @@ padding: 149px 0 150px 73px;
   .hero-wrapper {
     display: flext;
     background: linear-gradient(45deg, black, transparent);
+  }
+  .service-card {
+    margin: 20px 0;
   }
   .hero-content-wrapper {
     padding: 58px 30px;
