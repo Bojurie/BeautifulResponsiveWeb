@@ -9,6 +9,7 @@ width: 100%;
 
 }
 
+
 .process {
   background: #F4FCFD;
   width: 100%;
@@ -27,6 +28,7 @@ width: 100%;
 
 .process-wrapper p{
   color: #333333;
+  Opacity: 70%;
 }
 
 .process-container h1{
@@ -41,9 +43,10 @@ width: 100%;
   color: #333333;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   letter-spacing: -0.292683px;
+  font-weight: bold;
 }
 
 .process-content_wrapper {
@@ -107,22 +110,25 @@ padding: 149px 0 150px 73px;
   font-weight: 700;
   line-height: 86px;
   font-style: normal;
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bold;
   display: flex;
   align-items: center;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   height: 86px;
   left: 73px;
   top: 337.8px;
 }
 
+.hero-content-wrapper h3 {
+  letter-spacing: 0.3px;
+}
 .hero-content-wrapper p {
   width: 578px;
   height: 96px;
   left: 73px;
   top: 450px;
-
+  letter-spacing: 0.3px;  
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -131,12 +137,21 @@ padding: 149px 0 150px 73px;
 
 .button {
   background: linear-gradient(90deg, #ED582A 14.09%, #F48E39 100%);
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 10px 30px;
   height: 46px;
   width: 161px;
   text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
 }
+
+.button:hover{
+  color: rgb(21, 153, 21);
+  font-weight: bolder;
+}
+
 
 .dot {
   color: #ED582A;
@@ -160,7 +175,7 @@ padding: 149px 0 150px 73px;
   margin: auto;
   justify-content: center;
 }
-.abou
+
 .about h3 {
   text-transform: uppercase;
 }
@@ -180,6 +195,7 @@ padding: 149px 0 150px 73px;
 
 .about-para {
   padding: 5px 0px 20px;
+  opacity: 70%;
 }
 
 .about-story p {
@@ -413,18 +429,36 @@ padding: 149px 0 150px 73px;
 }
 .service-card {
   background: #31358A;
-  padding: 5px;
   margin: 20px;
-  padding: 62px;
   border-radius: 5%;
+  padding: 20px;
+  border-radius: 5%;
+  width: 100%;
+  height: auto;
+  text-align: left;
 }
 .service-card_link {
   padding-left: 10px;
 }
 
- .service-card a {
-   text-decoration: none;
+.service-card a {
+  text-decoration: none;
+  padding: 8px;
+  /* border: 1px solid; */
+  background: coral;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
  }
+.service-card a:hover{
+  letter-spacing: 2px;
+  transform: translate(-50);
+}
+ .service p {
+   padding-bottom: 20px;
+   font-family: 16px !important;
+ }
+
 
 .service-card h1 {
   padding: 15px 0 10px;

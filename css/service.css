@@ -36,6 +36,8 @@ body {
 .sqaures-content p {
   padding-bottom: 20px;
   line-height: 1.6;
+  font-size: 17px;
+  
 }
 .squares h1{
   font-weight: 500;
@@ -77,6 +79,7 @@ body {
 
 .choose-us {
  padding: 0px 100px 100px;
+ 
 }
 
 .choose-us h1 {
@@ -102,6 +105,8 @@ body {
 .choose-us h4 {
   padding-left: 10px;
   color: #31358A;
+  font-size: 22px;
+
 }
 
 .service-cirlce {
@@ -126,7 +131,9 @@ body {
   border-radius: 20%;
   text-align: center;
 }
-
+.service-cirlce_one h1 {
+  color: #0d15a5;
+}
 .num1-tracking {
   background: ghostwhite;
   width: 100px;
