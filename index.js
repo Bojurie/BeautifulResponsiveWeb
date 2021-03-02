@@ -11,6 +11,12 @@
 //   }
 // }
 
+var year = new Date().getFullYear();
+
+var date = `&copy; Beautiful Responsive Web ${year}. All Rights Reserved.`;
+
+document.getElementsByClassName('.copyright')[0].innerHTML = date;
+
 const init = function(){
   document.getElementById('button-send').addEventListener('click', send);
 }

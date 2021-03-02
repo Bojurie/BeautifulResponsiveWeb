@@ -107,6 +107,14 @@ body {
   transition: background-color 2s ease-out;
 }
 
+.copyright {
+
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 90px 0 0;
+}
+
 /* ------------- */
 /* MEDIA QUERIES */
 /* ------------- */

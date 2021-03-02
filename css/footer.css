@@ -9,9 +9,9 @@
 
 .footer-content-wrapper {
       align-items: baseline;
-      padding: 100px;
+      padding: 100px 100px 0 ;
       margin: auto;
-      
+     
 }
 
 .footer-content-wrapper ul{
