@@ -11,7 +11,7 @@ img {
 
 .image-wrapper img {
   border-radius: 5%;
-  border: 1px solid;
+
 }
 .page-container {
   width: 100%;
@@ -21,4 +21,15 @@ img {
 .content {
   padding: 40px 0;
 
+}
+
+@media screen and (max-width: 414px) {
+  .image-wrapper {
+    
+    
+  }
+  .image-wrapper img{
+    width: 90%;
+    margin: 0 auto; 
+  }
 }
