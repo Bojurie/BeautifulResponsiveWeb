@@ -278,4 +278,7 @@ body {
      padding: 20px;
      margin: auto;
    }
+   .services-card .ab {
+     text-align: center;
+   }
 }
