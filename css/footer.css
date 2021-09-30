@@ -27,6 +27,8 @@
 }
 .copyright {
   text-align: center;
+  padding: 10px 0;
+  letter-spacing: 1px;
 }
 /* .footer-top {
   font-size: 12px;

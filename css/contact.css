@@ -48,15 +48,16 @@ body {
   grid-gap: 20px;
 }
 
-.contact form label {
+.contact-form p.label{
   display: block;
   color: #3952a3;
-  font-weight: bold;
-  font-family: auto;;
+  font-family: auto;
+  color: gray;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 400;
 }
-.label {
-  font-weight: 600;
-}
+
 
 .contact form p {
   margin: 0;
@@ -82,8 +83,9 @@ body {
 .contact form textarea {
   width: 100%;
   /* padding: 1em; */
-  border: solid 1px #627EDC;
-  border-radius: 4px;
+  border: solid 1px #627edc79;
+  border-radius: 5px;
+  padding: 7px;
 }
 
 .contact form textarea {
@@ -101,7 +103,7 @@ body {
 
 .contact form button:hover,
 .contact form button:focus {
-  background: #3952a3;
+  background: #1539af;
   color: #ffffff;
   outline: 0;
   transition: background-color 2s ease-out;
@@ -128,9 +130,11 @@ body {
   .contact-left {
     width: 100%;
   }
-  .contact-info p{
+  /* .contact-info p{
+    letter-spacing: 2px;
+    font-weight: 100;
 
-  }
+  } */
  .contact form {
    display: contents;
   }

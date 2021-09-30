@@ -7,6 +7,7 @@ img {
 
 .image-wrapper {
   padding: 0 0 43px 0;
+  
 }
 
 .image-wrapper img {
@@ -23,13 +24,24 @@ img {
 
 }
 
-@media screen and (max-width: 414px) {
+
+@media screen and (max-width: 375px) { 
   .image-wrapper {
-    
-    
+    padding: 0 0 43px 0;
+    padding-left: 34px;
   }
+}
+@media screen and (max-width: 414px) {
+
+  .image-wrapper {
+    padding: 0 0 43px 0;
+    padding-left: 34px;
+  }
+  /* .image-wrapper {
+
+  } */
   .image-wrapper img{
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto !important; 
   }
 }
