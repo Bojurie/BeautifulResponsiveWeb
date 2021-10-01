@@ -769,8 +769,7 @@ padding: 149px 0 150px 73px;
     text-align: center;
   }
   .header-wrapper p {
-    padding: 30px !important;
-    text-align: center;
+    
   }
   .about-para {
     padding: 10px 0;
@@ -797,8 +796,10 @@ padding: 149px 0 150px 73px;
     display: contents;
   }
   .header-wrapper p {
+    padding: 30px !important;
+    text-align: center;
     color: black;
-    padding: 0 30px 30px;
+    line-height: 2;
   }
   .comment-content {
     text-align: center;
@@ -909,8 +910,10 @@ padding: 149px 0 150px 73px;
     padding: 60px 0 !important;
   }
  .header-wrapper p {
-   text-align: center;
-   padding-top: 10px;
+    padding: 30px !important;
+    text-align: center;
+    color: black;
+    line-height: 2;
  }
   .about-para {
     padding: 30px;
