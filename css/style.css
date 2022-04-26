@@ -5,8 +5,8 @@
 }
 
 body {
-font-family: 'Montserrat',sans-serif;
-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
 
 }
 
@@ -18,7 +18,7 @@ width: 100%;
 }
 
 .header-wrapper {
-  padding: 80px 0 70px 130px;
+  padding: 80px 60px 50px;
 }
 
 .process-wrapper {
@@ -27,12 +27,12 @@ width: 100%;
   justify-content: space-evenly;
 }
 
-.process-wrapper p{
+.process-wrapper p {
   color: #333333;
   Opacity: 70%;
 }
 
-.process-container h1{
+.process-container h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -40,6 +40,7 @@ width: 100%;
   letter-spacing: -0.4px;
   color: #31358A;
 }
+
 .overview {
   color: #333333;
   font-style: normal;
@@ -70,9 +71,9 @@ width: 100%;
   color: #31358A;
   font-weight: 700;
 }
-.num-wrapper {
 
-}
+.num-wrapper {}
+
 .num-wrapper1 h4 {
   background: #87D0D9;
   border-radius: 50%;
@@ -80,6 +81,7 @@ width: 100%;
   height: auto;
   color: white;
 }
+
 .num {
   padding: 5px;
   color: #87D0D9;
@@ -96,18 +98,18 @@ width: 100%;
 
 .hero {
   background-image: url('../images/Group\ 188.png');
-  background-repeat:no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-position:center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
   /* height: 100%; */
   width: 100%;
 }
 
 .hero-content-wrapper {
-padding: 149px 0 150px 73px;
+  padding: 149px 0 150px 73px;
 }
 
 .hero-content-wrapper h1 {
@@ -127,12 +129,13 @@ padding: 149px 0 150px 73px;
 .hero-content-wrapper h3 {
   letter-spacing: 0.3px;
 }
+
 .hero-content-wrapper p {
   width: 578px;
   height: 96px;
   left: 73px;
   top: 450px;
-  letter-spacing: 0.3px;  
+  letter-spacing: 0.3px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -151,7 +154,7 @@ padding: 149px 0 150px 73px;
   font-size: 17px;
 }
 
-.button:hover{
+.button:hover {
   color: rgb(21, 153, 21);
   font-weight: bolder;
 }
@@ -420,27 +423,42 @@ padding: 149px 0 150px 73px;
   color: #31358A;
 }
 
-.header-wrapper p{
+.header-wrapper p {
   color: black;
 }
+
 .service-cards_wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
 .service-cards {
-  padding: 0 100px 100px;
+  padding: 0 30px;
 }
+
 .service-card {
   background: #31358A;
-  margin: 20px ;
+  margin: 20px;
   border-radius: 5%;
   padding: 20px;
   border-radius: 5%;
-  width: 100%;
-  height: auto;
+  width: 375px;
+  height: 375px;
   text-align: left;
 }
+
+.service-card-Paragraph {
+  padding: 0px 12px 0px;
+  letter-spacing: 0.5px;
+
+}
+
+.service-wrapper {
+  padding: 0;
+}
+
 .service-card_link {
   padding-left: 10px;
 }
@@ -453,20 +471,27 @@ padding: 149px 0 150px 73px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
- }
-.service-card a:hover{
+}
+
+.service-card a:hover {
   letter-spacing: 2px;
   transform: translate(-50);
 }
- .service p {
-   padding-bottom: 20px;
-   font-family: 16px !important;
- }
 
+.service p {
+  /* padding-bottom: 20px; */
+
+}
+
+
+.card-button {
+  display: flex;
+}
 
 .service-card h1 {
-  padding: 15px 0 10px;
+  padding: 15px 0 0px;
 }
+
 .comment-section {
   background-color: #F4FCFD;
 }
@@ -480,76 +505,86 @@ padding: 149px 0 150px 73px;
   padding: 10px;
 }
 
-.content-wrapper{
-
-}
+.content-wrapper {}
 
 .comment-content p {
   width: 530px;
   color: black;
   text-align: center;
   display: inline-block;
-     
+
 }
 
 .comment-img_wrapper {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-      margin: auto;
+  margin: auto;
 }
-.comment-img_wrapper h2{
+
+.comment-img_wrapper h2 {
   font-size: 0.9rem;
   padding: 10px;
   color: black;
 }
 
-.comment-img_wrapper p{
+.comment-img_wrapper p {
   text-align: center;
   width: 100%;
 
 }
+
 .clients-section {
   background: #31358A;
 
 }
+
 .clients-heading h1 {
   color: white;
 }
+
 .clients-heading h3 {
   color: lightblue;
 }
+
 .header-wrapper h3 {
   text-transform: uppercase;
 }
 
 .clients-logo {
   padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
 .clients-logo_wrapper {
   text-align: center;
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 40px 0;
-      
+  padding: 0 0 40px;
+
 }
 
 .clients-logo_wrapper img {
-   width: 130px;
-   height: auto;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+  width: 150px;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin: 50px 70px;
 }
-.team-content_social i{
+
+.team-content_social i {
   color: #333333;
   padding: 5px;
 }
+
 .team-content_wrapper {
   color: black;
   text-align: center;
 }
-.team-content_wrapper img{
+
+.team-content_wrapper img {
   width: 300px;
   border-radius: 5%;
 }
@@ -558,6 +593,7 @@ padding: 149px 0 150px 73px;
   .hero-content-wrapper h3 {
     font-size: 1.3rem;
   }
+
   .hero-content-wrapper h1 {
     font-weight: 700;
     /* line-height: 86px; */
@@ -570,15 +606,17 @@ padding: 149px 0 150px 73px;
     left: 73px;
     top: 337.8px;
   }
+
   .hero-button {
     margin-top: 0;
   }
+
   .about-skills {
     padding: 0px !important;
     display: flex !important;
     justify-content: center;
     padding-top: 35px !important;
-    
+
   }
 
   .service-card {
@@ -592,42 +630,50 @@ padding: 149px 0 150px 73px;
     width: 220.905457px;
 
   }
+
   .boots-logo {
     width: 25.5px;
     height: 25.5px;
     left: 150px;
-    
+
   }
+
   .eclipse-2 {
     height: 178px;
     width: 178px;
   }
+
   .html-logo {
     right: 171px;
     width: 26px;
     height: 26px;
   }
+
   .slack-logo {
     bottom: 181px;
     width: 26px;
     height: 26px;
   }
+
   .zoom-logo {
     bottom: 33px;
     width: 26px;
     height: 26px;
   }
+
   .js-logo {
     left: 56px;
   }
+
   .node-logo {
     width: 26.39px;
     height: 26.39px;
     left: -17px;
- }
- .eclipse-3 {
-   width: 124.06px;
-   height: 124.06px;
+  }
+
+  .eclipse-3 {
+    width: 124.06px;
+    height: 124.06px;
   }
 
   .jqury-logo {
@@ -635,50 +681,64 @@ padding: 149px 0 150px 73px;
     height: auto;
     right: 0px;
   }
+
   .header-wrapper {
     padding: 54px 30px 0px !important;
   }
+
   .header-wrapper h1 {
     font-size: 1.5rem !important;
   }
+
   .process-wrapper {
     padding: 0px 40px 50px;
   }
+
   .header-wrapper p {
     text-align: center;
     padding: 0 !important;
   }
+
   .team-content_wrapper img {
     width: 228px;
   }
-  .team-content_wrapper h2{
+
+  .team-content_wrapper h2 {
     font-size: 0.9rem;
     padding-top: 16px;
     font-weight: bolder;
   }
+
   .team-content_social {
     padding-bottom: 10px;
   }
+
   .footer-content-wrapper {
     padding: 60px !important;
     text-align: center;
   }
+
   .left-col1 {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
   .footer-logo {
     padding: 15px;
   }
+
   .footer-logo img {
     width: 145px;
   }
+
   .left-col1 p {
     font-size: 0.8rem;
   }
+
   .social-icon {
     padding: 5px;
   }
+
   .quick-links {
     padding: 20px 0;
   }
@@ -693,16 +753,20 @@ padding: 149px 0 150px 73px;
     height: auto;
     width: 100%;
   }
- .hero-content-wrapper {
-   padding: 58px 30px;
-   width: 100%;
+
+  .hero-content-wrapper {
+    padding: 58px 30px;
+    width: 100%;
   }
+
   .about {
     width: 100%;
   }
+
   .about-skills {
     padding: 35px 0 0 !important;
   }
+
   .service-card {
     margin: 20px auto !important;
     width: 90%;
@@ -711,13 +775,14 @@ padding: 149px 0 150px 73px;
     line-height: 1.5;
     padding: 30px;
   }
-  .service-card_link {
-    
-  }
+
+  .service-card_link {}
+
   .eclipse-1 {
     height: 250.905457px;
     width: 250.905457px;
   }
+
   .boots-logo {
     width: 30.5px;
     height: 30.5px;
@@ -728,6 +793,7 @@ padding: 149px 0 150px 73px;
     height: 190px;
     width: 190px;
   }
+
   .html-logo {
     width: 30px;
     height: 30px;
@@ -741,53 +807,64 @@ padding: 149px 0 150px 73px;
   .slack-logo {
     bottom: 45px;
   }
-  .node-logo{
+
+  .node-logo {
     width: 47.39px;
     height: auto;
     left: -25px;
   }
+
   .js-logo {
-    width: 30x; 
-    left: 51px; 
+    width: 30x;
+    left: 51px;
   }
+
   .zoom-logo {
     width: 30px;
     height: 30px;
     top: 49px;
   }
+
   .about-content {
     padding: 0;
   }
+
   .header-wrapper {
     padding: 60px 0 !important;
   }
-  .header-wrapper h1{
+
+  .header-wrapper h1 {
     text-align: center;
     font-size: 2rem;
   }
+
   .overview {
     text-align: center;
   }
-  .header-wrapper p {
-    
-  }
+
+  .header-wrapper p {}
+
   .about-para {
     padding: 10px 0;
     text-align: center;
   }
+
   .process-wrapper {
     text-align: center;
     display: contents;
   }
+
   .process-card {
     width: 255px;
     color: black;
     margin: auto;
     padding: 15px 0;
   }
+
   .num {
     display: inline;
   }
+
   .service-cards {
     padding: 0;
   }
@@ -795,42 +872,52 @@ padding: 149px 0 150px 73px;
   .service-cards_wrapper {
     display: contents;
   }
+
   .header-wrapper p {
     padding: 30px !important;
     text-align: center;
     color: black;
     line-height: 2;
   }
+
   .comment-content {
     text-align: center;
-    padding: 0 ;
+    padding: 0;
   }
+
   .comment-content p {
     width: 100%;
     padding: 30px;
   }
+
   .comment-img_wrapper {
     height: auto;
   }
-  .comment-img_wrapper p{
+
+  .comment-img_wrapper p {
     padding: 0;
   }
+
   .clients-logo_wrapper {
     display: grid;
     justify-content: center;
     grid-row-gap: 60px;
   }
+
   .footer-content-wrapper {
     padding: 60px !important;
     text-align: center;
   }
+
   .left-col1 {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
   .footer-logo {
     padding: 15px;
   }
+
   .social-icon {
     padding: 5px;
   }
@@ -845,6 +932,7 @@ padding: 149px 0 150px 73px;
     height: auto;
     width: 100%;
   }
+
   .hero-content-wrapper p {
     font-size: 17px;
   }
@@ -852,21 +940,25 @@ padding: 149px 0 150px 73px;
   .hero-content-wrapper {
     width: 100%;
   }
+
   .about-skills {
     padding: 55px 0 0 !important;
   }
+
   .service-card {
-   margin: 20px auto !important;
-   width: 90%;
-   text-align: center;
-   letter-spacing: 1px;
-   line-height: 1.5;
-   padding: 30px;
+    margin: 20px auto !important;
+    width: 90%;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 30px;
   }
+
   .eclipse-1 {
     height: 260px !important;
     width: 260px !important;
   }
+
   .boots-logo {
     width: 30.5px;
     height: 30.5px;
@@ -877,14 +969,16 @@ padding: 149px 0 150px 73px;
     height: 200px;
     width: 200px;
   }
+
   .html-logo {
     width: 30px;
     height: 30px;
     right: 166px;
   }
+
   .eclipse-3 {
-  width: 125px;
-  height: 125px;
+    width: 125px;
+    height: 125px;
   }
 
   .slack-logo {
@@ -892,33 +986,41 @@ padding: 149px 0 150px 73px;
     height: 30px;
     bottom: 51px;
   }
+
   .node-logo {
     width: 40.39px;
     left: -22px;
     height: auto;
   }
+
   .zoom-logo {
     bottom: 50px;
   }
+
   .js-logo {
     left: 52px;
   }
+
   .jqury-logo {
     width: 50px;
   }
+
   .header-wrapper {
     padding: 60px 0 !important;
   }
- .header-wrapper p {
+
+  .header-wrapper p {
     padding: 30px !important;
     text-align: center;
     color: black;
     line-height: 2;
- }
+  }
+
   .about-para {
     padding: 30px;
     text-align: center;
   }
+
   .service-cards {
     padding: 0;
   }
@@ -927,21 +1029,24 @@ padding: 149px 0 150px 73px;
     text-align: center;
     padding: 30px;
   }
-  .comment-img_wrapper {
-    height: auto;
-  }
+
+
+
   .comment-content p {
     width: auto !important;
-    
+
   }
+
   .clients-logo_wrapper {
     display: grid;
     justify-content: center;
     grid-row-gap: 60px !important;
   }
+
   .social-icon {
     padding: 5px 5px 20px;
   }
+
   .footer-logo {
     padding: 15px 0;
   }
@@ -961,10 +1066,11 @@ padding: 149px 0 150px 73px;
   .quick-links {
     padding: 20px 0;
   }
-  .row>*{
-    padding-right: 0; 
+
+  .row>* {
+    padding-right: 0;
     padding-left: 0;
-        
+
   }
 }
 
@@ -974,91 +1080,127 @@ padding: 149px 0 150px 73px;
   body {
     width: 100%;
   }
+
   .service-cards_wrapper {
     display: contents;
   }
+
   .about-content {
     padding: 0;
   }
+
   .about-skills {
     padding: 55px 55px 0;
     margin: auto;
   }
+
   .service-card {
     margin: 20px 0;
   }
+
   .header-wrapper {
     padding: 80px 0 70px 30px;
+    text-align: center;
   }
+
+  .service-card-Paragraph {
+    text-align: left;
+  }
+
   .overview {
     text-align: center;
   }
+
   .header-wrapper h1 {
-    text-align: center;  
+    text-align: center;
   }
+
   .process-wrapper {
     display: grid;
     text-align: center;
     grid-row-gap: 30px;
   }
+
+  .comment-content p {
+    width: auto;
+
+  }
+
   .num {
     margin: auto;
   }
+
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
+
 @media screen and (max-width: 736px) {
   .hero {
     height: auto;
     width: 100%;
   }
+
   .hero-wrapper {
     display: flext;
     background: linear-gradient(45deg, black, transparent);
   }
+
   .service-card {
     margin: 20px 0;
+    height: auto;
   }
+
   .hero-content-wrapper {
     padding: 58px 30px;
     width: 100%;
   }
-  .hero-content {
-    
-    
-  }
+
+  .hero-content {}
+
   .hero-content-wrapper h1 {
     font-size: 20px;
   }
+
   .hero-content-wrapper p {
     /* width: 362px; */
   }
+
   .hero-button {
     margin-top: 80px;
   }
+
   .about {
     height: auto;
   }
+
   .about-content {
     display: inline-block;
     width: 100%;
   }
+
   .about-skills {
     /* padding: 50px 36px 50px 0; */
     display: table;
-}
-.hero-content-wrapper h3 {
+  }
 
+  .hero-content-wrapper h3 {}
+
+  .hero-content-wrapper h1 {
+    font-weight: revert;
+    letter-spacing: 2px;
+  }
+
+  .hero-content-wrapper p {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 13px;
+  }
 }
-.hero-content-wrapper h1{ 
-  font-weight: revert;
-  letter-spacing: 2px;
-}
- .hero-content-wrapper p {
-   width: 100%;
-   margin: auto;
-   display: flex;
-   font-size: 13px;
- }
-}
+
 /* * {
   margin: 0;
   padding: 0;
