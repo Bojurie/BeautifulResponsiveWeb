@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato',
+    sans-serif;
   width: 100%;
 
 }
@@ -30,6 +31,8 @@ body {
 .process-wrapper p {
   color: #333333;
   Opacity: 70%;
+  line-height: 27px;
+  letter-spacing: .5px;
 }
 
 .process-container h1 {
@@ -66,8 +69,8 @@ body {
 
 .card-heading {
   font-size: 18px;
-  line-height: 22px;
-  letter-spacing: -0.292683px;
+  line-height: 27px;
+  letter-spacing: .5px;
   color: #31358A;
   font-weight: 700;
 }
@@ -419,12 +422,18 @@ body {
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.4px;
-  color: #31358A;
+  letter-spacing: 3.6px;
+  color: #31358ac9;
 }
 
 .header-wrapper p {
-  color: black;
+  /* color: black; */
+  color: #494343d1;
+  font-family: 'Lato',
+    sans-serif;
+  letter-spacing: 1px;
+  line-height: 32px;
+  padding-bottom: 10px;
 }
 
 .service-cards_wrapper {
@@ -471,15 +480,21 @@ body {
   border-radius: 5px;
   color: white;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .service-card a:hover {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   transform: translate(-50);
+  transition: 1s ease-in-out;
+  color: rgb(21, 153, 21);
+  font-weight: bold;
 }
 
 .service p {
-  /* padding-bottom: 20px; */
+  /* line-height: 28px;
+  letter-spacing: .59px;
+  color: #fffcfcd1; */
 
 }
 
@@ -489,7 +504,13 @@ body {
 }
 
 .service-card h1 {
+  letter-spacing: 1.9px;
   padding: 15px 0 0px;
+  line-height: 29px;
+  /* color: #f08155; */
+  color: #ffffffed;
+  font-weight: 600;
+
 }
 
 .comment-section {
@@ -509,9 +530,11 @@ body {
 
 .comment-content p {
   width: 530px;
-  color: black;
+  line-height: 29px;
+  letter-spacing: .5px;
   text-align: center;
   display: inline-block;
+  color: #80808099;
 
 }
 
@@ -523,9 +546,9 @@ body {
 }
 
 .comment-img_wrapper h2 {
-  font-size: 0.9rem;
-  padding: 10px;
-  color: black;
+  font-size: 1.1rem;
+  padding: 18px 0 0;
+  color: #0000008a;
 }
 
 .comment-img_wrapper p {
@@ -549,6 +572,8 @@ body {
 
 .header-wrapper h3 {
   text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .clients-logo {
@@ -576,7 +601,9 @@ body {
 
 .team-content_social i {
   color: #333333;
-  padding: 5px;
+
+  padding: 16px 20px 40px;
+  font-size: 27px;
 }
 
 .team-content_wrapper {
@@ -585,8 +612,17 @@ body {
 }
 
 .team-content_wrapper img {
-  width: 300px;
+  width: 280px;
   border-radius: 5%;
+}
+
+.team-content_wrapper h2 {
+  font-size: 21px;
+  padding: 15px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,7 +1,7 @@
 .header-content {
-      margin: auto;
-      height: auto;
-      background-color: #31358A;
+  margin: auto;
+  height: auto;
+  background-color: #31358A;
 }
 
 .header-content h1 {
@@ -11,39 +11,100 @@
   text-transform: uppercase;
   font-weight: bolder;
 }
+
 .content-wrapper {
   padding: 30px;
   text-align: center;
   margin: auto;
 }
 
-.content-wrapper p{
+.content-wrapper p {
   font-size: 15px;
   padding: 0 23rem;
+  font-family: 'Lato',
+    sans-serif;
+  letter-spacing: 1px;
+  line-height: 29px;
+
+}
+
+.footer {
+  margin-bottom: 1rem;
+  font-family: 'Lato';
+  letter-spacing: 1.4px;
+  line-height: 27px;
+  border: 1px solid #292c70;
+
+}
+
+.left-col1 p {
+  letter-spacing: 1.1px;
+  padding: 6px 9px 5px 0;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media a {
+  padding: 0 10px;
+  color: white;
+  font-size: 24px;
+
+}
+
+.quick-links h1 {
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.quick-links a {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.footer-work h1 {
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.footer-work a {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.footer-stuff h1 {
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.footer-stuff a {
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 320px) {
- .content-wrapper p {
-  padding: 0;
-  line-height: 2;
-  letter-spacing: 1px;
+  .content-wrapper p {
+    padding: 0;
+    line-height: 2;
+    letter-spacing: 1px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .content-wrapper p {
-   line-height: 2;
-   letter-spacing: 1px;
-   padding: 0;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 0;
 
   }
 }
 
 @media screen and (max-width: 375px) {
   .content-wrapper p {
-   line-height: 2;
-   letter-spacing: 1px;
-   padding: 0;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 0;
   }
 }
 
@@ -54,13 +115,18 @@
     padding: 0;
 
   }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .content-wrapper p {
-   line-height: 2;
-   letter-spacing: 1px;
-   padding: 0;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 0;
 
   }
 }

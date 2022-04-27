@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   font-size: 16px;
   width: 100%;
@@ -31,7 +31,7 @@ nav {
   background-color: #31358A;
   text-align: center;
   padding: 15px 30px;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 nav .icon {
@@ -49,29 +49,31 @@ nav ol {
 
 nav ol li {
   margin: 0 2px;
-  
+
 }
 
 nav ol li a {
-   color: #FFFFFF;
-   font-size: 15px;
-   text-decoration: none;
-   letter-spacing: 1px;
-   padding: 22px 16px;
-   text-transform: capitalize;
+  color: #FFFFFF;
+  font-size: 13px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 22px 16px;
+  text-transform: uppercase;
 }
 
 nav ol li:hover a {
-   background-color: #5A5DA1;
-   color: white;
-   width: 100%;
- }
+
+  color: white;
+  width: 100%;
+  border-bottom: 1px solid #5A5DA1;
+}
 
 nav .bar {
   position: relative;
   margin: auto;
   display: none;
 }
+
 nav .bar span {
   position: absolute;
   color: #FFFFFF;
@@ -98,7 +100,7 @@ input[type="checkbox"] {
   nav ol {
     display: flex;
     flex-direction: column;
-    background:#ED582A;
+    background: #ED582A;
     height: 0;
     visibility: hidden;
     transition: 0.3s;
