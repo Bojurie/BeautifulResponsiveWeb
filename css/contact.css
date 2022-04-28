@@ -77,7 +77,6 @@ body {
   font-family: 'Lato',
     sans-serif;
   font-weight: 500;
-  /* text-transform: c !important; */
 }
 
 .fas {
@@ -182,6 +181,8 @@ body {
     width: 100%;
   }
 
+  .contact-info p {}
+
   .contact-wrapper-content>.header-wrapper {
     padding: 0;
   }
@@ -191,8 +192,8 @@ body {
   }
 
   .fas {
-    font-size: 16px;
-    letter-spacing: 1;
+    font-size: 14px;
+    letter-spacing: 1 !important;
   }
 
   .fa-solid {
