@@ -813,11 +813,12 @@ body {
 
   .service-card {
     margin: 20px auto !important;
-    width: 90%;
+    width: 90% !important;
     text-align: center;
     letter-spacing: 1px;
     line-height: 1.5;
     padding: 30px;
+
   }
 
   .service-card_link {}
