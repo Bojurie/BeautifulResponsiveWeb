@@ -171,6 +171,32 @@ body {
   }
 }
 
+
+@media screen and (max-width: 414px) {
+  .contact-wrapper-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-left {
+    width: 100%;
+  }
+
+  .contact-wrapper-content>.header-wrapper {
+    padding: 0;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact form {
+    display: contents;
+
+  }
+}
+
+
 @media only screen and (min-width: 700px) {
   .wrapper {
     display: grid;
@@ -194,4 +220,30 @@ body {
   .brand {
     text-align: left;
   }
+}
+
+
+@media only screen and (min-width: 820px) {
+
+  .contact-wrapper-content {
+    padding: 0;
+    display: flex;
+    /* padding: 40px; */
+    flex-wrap: wrap;
+  }
+
+  .contact form {
+    display: contents;
+
+  }
+
+  .contact-left {
+    width: 100%;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact-wrapper-content {}
 }
