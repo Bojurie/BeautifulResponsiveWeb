@@ -190,6 +190,15 @@ body {
     width: 100%;
   }
 
+  .fas {
+    font-size: 16px;
+  }
+
+  .fa-solid {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
   .contact form {
     display: contents;
 
