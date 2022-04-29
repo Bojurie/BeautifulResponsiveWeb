@@ -462,13 +462,14 @@ body {
   padding: 20px;
   border-radius: 5%;
   width: 375px;
-  height: 375px;
+  height: auto;
   text-align: left;
 }
 
 .service-card-Paragraph {
-  padding: 0px 12px 0px;
+  /* padding: 0px 12px 0px; */
   letter-spacing: 0.5px;
+  line-height: 28px;
 
 }
 
